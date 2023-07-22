@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight-default);
+  line-height: var(--font-line-height);
+  background-color: #F2F3F7;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1212px;
+  margin: 0 auto;
+}
+
+.app {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+
+  &__page {
+    position: relative;
+    padding: 20px;
+  }
+}

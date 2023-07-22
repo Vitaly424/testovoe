@@ -1,0 +1,14 @@
+.header {
+  padding: 16px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: #fff;
+  padding: 16px 24px;
+  border-radius: 28px;
+  box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.08);
+}

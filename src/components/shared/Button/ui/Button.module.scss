@@ -1,0 +1,25 @@
+.button {
+  padding: 16px 10px;
+  border-radius: 28px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFF;
+  transition: box-shadow 0.2s linear;
+
+  &:hover {
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.15) inset;
+  }
+}
+
+.backgroundLight {
+  background-color: #9BCAF5;
+}
+
+.backgroundDark {
+  background-color: #585DFB;
+}
+
+.btnYellow {
+  width: 61px;
+  background-color: #FFDD49;
+}
